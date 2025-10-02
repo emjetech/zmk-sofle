@@ -15,9 +15,10 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/pointing.h>
 
-&mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
-
-&msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
+#define BASE 0
+#define LOWER 1
+#define RAISE 2
+#define ADJUST 3
 
 &msc {
     acceleration-exponent = <1>;      // 0
@@ -31,10 +32,6 @@
     trigger-period-ms = <16>;
 };
 
-#define BASE 0
-#define LOWER 1
-#define RAISE 2
-#define ADJUST 3
 
 / {
 scroll_encoder: scroll_encoder {
