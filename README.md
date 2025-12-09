@@ -11,9 +11,8 @@ Untuk cara fork repository ini :
 
 Prosedur Reset Keyboard Split
 [Tutorial Mapping ZMK](https://youtu.be/cAi5pnkz48M)
-- Setelah firmware di download, tekan 2x tombol reset saat USB terhubung.
-- Lakukan langkah-langkah berikut untuk mereset semua bagian keyboard split Anda:
-- Masukkan setiap bagian keyboard split ke mode bootloader.
+Lakukan langkah-langkah berikut untuk mereset semua bagian keyboard split Anda:
+- Masukkan setiap bagian keyboard split ke mode bootloader. Dengan cara tekan 2x tombol reset saat USB terhubung akan muncul drive baru, untuk flash nya cukup drag & drop di disk bootloader
 - Flash salah satu bagian keyboard dengan firmware reset pengaturan setting_reset.uf2.
 - Ulangi langkah 2 pada bagian lainnya dari keyboard split.
 - Flash image firmware yang sebenarnya untuk setiap bagian keyboard split (misalnya my_board_left.uf2 untuk bagian kiri, my_board_right.uf2 untuk bagian kanan).
