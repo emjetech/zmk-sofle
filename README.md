@@ -3,7 +3,7 @@ ZMK Sofle untuk Super Mini / Promicro Wireless NRF52840.
 Ada update baru ZMK Studio remapping tanpa perlu di flash 
 [ZMK STUDIO](https://zmk.studio/)
 
-[Full Dokumentasi ZMK](https://zmk.dec/docs)
+[Full Dokumentasi ZMK](https://zmk.dev/docs)
 
 
 
