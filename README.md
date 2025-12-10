@@ -6,11 +6,13 @@ Ada update baru ZMK Studio remapping tanpa perlu di flash
 [Full Dokumentasi ZMK](https://zmk.dev/docs)
 
 
-Untuk cara fork repository ini :
+Tools :
 [ZMK Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)
+Video fork repository :
+[Tutorial Mapping ZMK](https://youtu.be/cAi5pnkz48M)
+
 
 Prosedur Reset Keyboard Split
-[Tutorial Mapping ZMK](https://youtu.be/cAi5pnkz48M)
 Lakukan langkah-langkah berikut untuk mereset semua bagian keyboard split Anda:
 - Masukkan setiap bagian keyboard split ke mode bootloader. Dengan cara tekan 2x tombol reset saat USB terhubung akan muncul drive baru, untuk flash nya cukup drag & drop di disk bootloader
 - Flash salah satu bagian keyboard dengan firmware reset pengaturan setting_reset.uf2.
