@@ -8,27 +8,27 @@
 ## HAPUS "#" Sesuai Tipe Sofle yang dipakai. Dan kasih "#" argument yang tidak dipkai
 
 include:
-## SOFLE OLED no Dongle ##
+  ## SOFLE OLED no Dongle ##
+
+  # - board: nice_nano_v2
+  #   shield: sofle_left
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+  # - board: nice_nano_v2
+  #   shield: sofle_right
+  # - board: nice_nano_v2
+  #   shield: settings_reset
+
+  ## SOFLE E-Paper No Dongle ##
 
   - board: nice_nano_v2
-    shield: sofle_left
+    shield: sofle_left nice_view_adapter nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
   - board: nice_nano_v2
-    shield: sofle_right
+    shield: sofle_right nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: settings_reset
-    
-## SOFLE E-Paper No Dongle ##
-
-# - board: nice_nano_v2
-#   shield: sofle_left nice_view_adapter nice_view
-#   snippet: studio-rpc-usb-uart
-#   cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
-# - board: nice_nano_v2
-#   shield: sofle_right nice_view_adapter nice_view
-# - board: nice_nano_v2
-#   shield: settings_reset
 
 ## SOFLE with Dongle ##
 
